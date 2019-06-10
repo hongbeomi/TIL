@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="entertainment@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.15">
+    <root id="1">
+      <ServerVersion>11.2</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="entertainment">
+      <ObjectId>16384</ObjectId>
+      <StateNumber>571</StateNumber>
+      <Owner>scott</Owner>
+      <IntrospectionStateNumber>729</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="exercise">
+      <ObjectId>16577</ObjectId>
+      <StateNumber>694</StateNumber>
+      <Owner>hongbeom</Owner>
+    </database>
+    <database id="4" parent="1" name="postgres">
+      <ObjectId>13364</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <StateNumber>566</StateNumber>
+      <Owner>hongbeom</Owner>
+    </database>
+    <role id="5" parent="1" name="hongbeom">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="6" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="7" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="8" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="9" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="10" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="11" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="12" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="13" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="14" parent="1" name="scott">
+      <ObjectId>16385</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="15" parent="2" name="information_schema">
+      <ObjectId>13068</ObjectId>
+      <StateNumber>365</StateNumber>
+      <Owner>hongbeom</Owner>
+    </schema>
+    <schema id="16" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>358</StateNumber>
+      <Owner>hongbeom</Owner>
+    </schema>
+    <schema id="17" parent="2" name="pg_temp_1">
+      <ObjectId>11804</ObjectId>
+      <StateNumber>120</StateNumber>
+      <Owner>hongbeom</Owner>
+    </schema>
+    <schema id="18" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <StateNumber>1</StateNumber>
+      <Owner>hongbeom</Owner>
+    </schema>
+    <schema id="19" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11805</ObjectId>
+      <StateNumber>120</StateNumber>
+      <Owner>hongbeom</Owner>
+    </schema>
+    <schema id="20" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>359</StateNumber>
+      <Owner>hongbeom</Owner>
+      <IntrospectionStateNumber>730</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="21" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="22" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="23" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="24" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="25" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="26" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="27" parent="2" name="plpgsql">
+      <ObjectId>13350</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>518</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <table id="28" parent="20" name="department">
+      <ObjectId>16416</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>626</StateNumber>
+    </table>
+    <table id="29" parent="20" name="drama">
+      <ObjectId>16406</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>679</StateNumber>
+    </table>
+    <table id="30" parent="20" name="emp_role">
+      <ObjectId>16496</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>623</StateNumber>
+    </table>
+    <table id="31" parent="20" name="employee">
+      <ObjectId>16501</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>623</StateNumber>
+    </table>
+    <table id="32" parent="20" name="movie">
+      <ObjectId>16396</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>665</StateNumber>
+    </table>
+    <table id="33" parent="20" name="music">
+      <ObjectId>16411</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>686</StateNumber>
+    </table>
+    <table id="34" parent="20" name="part_drama">
+      <ObjectId>16551</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>679</StateNumber>
+    </table>
+    <table id="35" parent="20" name="part_movie">
+      <ObjectId>16538</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>667</StateNumber>
+    </table>
+    <table id="36" parent="20" name="part_music">
+      <ObjectId>16564</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>686</StateNumber>
+    </table>
+    <table id="37" parent="20" name="rel_department">
+      <ObjectId>16511</ObjectId>
+      <Owner>scott</Owner>
+      <StateNumber>626</StateNumber>
+    </table>
+    <column id="38" parent="28" name="dept_code">
+      <Position>1</Position>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>577</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="39" parent="28" name="dept_name">
+      <Position>2</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>577</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="40" parent="28" name="dept_loc">
+      <Position>3</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>577</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="41" parent="28" name="department_pkey">
+      <ObjectId>16419</ObjectId>
+      <StateNumber>577</StateNumber>
+      <ColNames>dept_code</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="42" parent="28" name="department_pkey">
+      <ObjectId>16420</ObjectId>
+      <StateNumber>577</StateNumber>
+      <ColNames>dept_code</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>department_pkey</UnderlyingIndexName>
+    </key>
+    <column id="43" parent="29" name="drm_code">
+      <Position>1</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="44" parent="29" name="drm_name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="29" name="drm_prd">
+      <Position>3</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="46" parent="29" name="drm_brd">
+      <Position>4</Position>
+      <DataType>varchar(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="47" parent="29" name="drm_opdate">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>574</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="48" parent="29" name="drama_pkey">
+      <ObjectId>16409</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>drm_code</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="49" parent="29" name="drama_pkey">
+      <ObjectId>16410</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>drm_code</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>drama_pkey</UnderlyingIndexName>
+    </key>
+    <column id="50" parent="30" name="emp_rcode">
+      <Position>1</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>621</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="51" parent="30" name="emp_rname">
+      <Position>2</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>621</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="52" parent="30" name="emp_role_pkey">
+      <ObjectId>16499</ObjectId>
+      <StateNumber>621</StateNumber>
+      <ColNames>emp_rcode</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="53" parent="30" name="emp_role_pkey">
+      <ObjectId>16500</ObjectId>
+      <StateNumber>621</StateNumber>
+      <ColNames>emp_rcode</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>emp_role_pkey</UnderlyingIndexName>
+    </key>
+    <column id="54" parent="31" name="emp_code">
+      <Position>1</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>623</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="55" parent="31" name="emp_name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>623</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="56" parent="31" name="emp_mgt">
+      <Position>3</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>623</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="57" parent="31" name="emp_sal">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>623</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="58" parent="31" name="emp_rcode">
+      <Position>5</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>623</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="59" parent="31" name="employee_pkey">
+      <ObjectId>16504</ObjectId>
+      <StateNumber>623</StateNumber>
+      <ColNames>emp_code</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="60" parent="31" name="employee_pkey">
+      <ObjectId>16505</ObjectId>
+      <StateNumber>623</StateNumber>
+      <ColNames>emp_code</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>employee_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="61" parent="31" name="emp_rcode_fk">
+      <ObjectId>16506</ObjectId>
+      <StateNumber>623</StateNumber>
+      <ColNames>emp_rcode</ColNames>
+      <RefTableId>16496</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>emp_role</RefTableName>
+      <RefKeyName>emp_role_pkey</RefKeyName>
+      <RefColNames>emp_rcode</RefColNames>
+    </foreign-key>
+    <column id="62" parent="32" name="mov_code">
+      <Position>1</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="63" parent="32" name="mov_name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="64" parent="32" name="mov_mpaa">
+      <Position>3</Position>
+      <DataType>varchar(2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="32" name="mov_pddate">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="66" parent="32" name="mov_opdate">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>574</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="67" parent="32" name="movie_pkey">
+      <ObjectId>16399</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>mov_code</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="68" parent="32" name="movie_pkey">
+      <ObjectId>16400</ObjectId>
+      <StateNumber>574</StateNumber>
+      <ColNames>mov_code</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>movie_pkey</UnderlyingIndexName>
+    </key>
+    <column id="69" parent="33" name="msc_code">
+      <Position>1</Position>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="70" parent="33" name="msc_name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="71" parent="33" name="msc_date">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="72" parent="33" name="msc_price">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="73" parent="33" name="msc_csf">
+      <Position>5</Position>
+      <DataType>varchar(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>575</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="74" parent="33" name="music_pkey">
+      <ObjectId>16414</ObjectId>
+      <StateNumber>575</StateNumber>
+      <ColNames>msc_code</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="75" parent="33" name="music_pkey">
+      <ObjectId>16415</ObjectId>
+      <StateNumber>575</StateNumber>
+      <ColNames>msc_code</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>music_pkey</UnderlyingIndexName>
+    </key>
+    <column id="76" parent="34" name="pd_drm_code">
+      <Position>1</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>679</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="77" parent="34" name="pd_emp_code">
+      <Position>2</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>679</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="78" parent="34" name="pd_emp_role">
+      <Position>3</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>679</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="79" parent="34" name="pd_emp_fee">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>679</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="80" parent="34" name="part_drama_pd_drm_code_fkey">
+      <ObjectId>16554</ObjectId>
+      <StateNumber>679</StateNumber>
+      <ColNames>pd_drm_code</ColNames>
+      <RefTableId>16406</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>drama</RefTableName>
+      <RefKeyName>drama_pkey</RefKeyName>
+      <RefColNames>drm_code</RefColNames>
+    </foreign-key>
+    <foreign-key id="81" parent="34" name="part_drama_pd_emp_code_fkey">
+      <ObjectId>16559</ObjectId>
+      <StateNumber>679</StateNumber>
+      <ColNames>pd_emp_code</ColNames>
+      <RefTableId>16501</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>employee</RefTableName>
+      <RefKeyName>employee_pkey</RefKeyName>
+      <RefColNames>emp_code</RefColNames>
+    </foreign-key>
+    <column id="82" parent="35" name="emp_code">
+      <Position>1</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>667</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="83" parent="35" name="pm_mov_code">
+      <Position>2</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>667</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="84" parent="35" name="pm_emp_role">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <StateNumber>667</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="85" parent="35" name="pm_mov_fee">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>667</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="86" parent="35" name="part_movie_emp_code_fkey">
+      <ObjectId>16541</ObjectId>
+      <StateNumber>667</StateNumber>
+      <ColNames>emp_code</ColNames>
+      <RefTableId>16501</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>employee</RefTableName>
+      <RefKeyName>employee_pkey</RefKeyName>
+      <RefColNames>emp_code</RefColNames>
+    </foreign-key>
+    <foreign-key id="87" parent="35" name="part_movie_pm_mov_code_fkey">
+      <ObjectId>16546</ObjectId>
+      <StateNumber>667</StateNumber>
+      <ColNames>pm_mov_code</ColNames>
+      <RefTableId>16396</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>movie</RefTableName>
+      <RefKeyName>movie_pkey</RefKeyName>
+      <RefColNames>mov_code</RefColNames>
+    </foreign-key>
+    <column id="88" parent="36" name="pm_msc_code">
+      <Position>1</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>686</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="89" parent="36" name="pm_emp_code">
+      <Position>2</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>686</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="90" parent="36" name="pm_emp_role">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <StateNumber>686</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="91" parent="36" name="pm_emp_fee">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>686</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="92" parent="36" name="part_music_pm_msc_code_fkey">
+      <ObjectId>16567</ObjectId>
+      <StateNumber>686</StateNumber>
+      <ColNames>pm_msc_code</ColNames>
+      <RefTableId>16411</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>music</RefTableName>
+      <RefKeyName>music_pkey</RefKeyName>
+      <RefColNames>msc_code</RefColNames>
+    </foreign-key>
+    <foreign-key id="93" parent="36" name="part_music_pm_emp_code_fkey">
+      <ObjectId>16572</ObjectId>
+      <StateNumber>686</StateNumber>
+      <ColNames>pm_emp_code</ColNames>
+      <RefTableId>16501</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>employee</RefTableName>
+      <RefKeyName>employee_pkey</RefKeyName>
+      <RefColNames>emp_code</RefColNames>
+    </foreign-key>
+    <column id="94" parent="37" name="rd_emp_code">
+      <Position>1</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>626</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="95" parent="37" name="rd_dept_code">
+      <Position>2</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>626</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <foreign-key id="96" parent="37" name="rel_department_rd_emp_code_fkey">
+      <ObjectId>16514</ObjectId>
+      <StateNumber>626</StateNumber>
+      <ColNames>rd_emp_code</ColNames>
+      <RefTableId>16501</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>employee</RefTableName>
+      <RefKeyName>employee_pkey</RefKeyName>
+      <RefColNames>emp_code</RefColNames>
+    </foreign-key>
+    <foreign-key id="97" parent="37" name="rel_department_rd_dept_code_fkey">
+      <ObjectId>16519</ObjectId>
+      <StateNumber>626</StateNumber>
+      <ColNames>rd_dept_code</ColNames>
+      <RefTableId>16416</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>department</RefTableName>
+      <RefKeyName>department_pkey</RefKeyName>
+      <RefColNames>dept_code</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

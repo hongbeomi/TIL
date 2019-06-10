@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="commons-lang3-3.8.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mybatis-3.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/postgresql-42.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
