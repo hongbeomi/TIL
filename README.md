@@ -7,7 +7,7 @@
 
 학습 내용 저장소입니다.
 
-## Contact
+## Made By
 
-- dks3963@naver.com
+- hongbeom ahn  - dks3963@naver.com
 
