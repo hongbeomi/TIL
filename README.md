@@ -9,7 +9,7 @@
 
 ## Contents
 
-* [C언어 세미나 - 발표자료][https://github.com/hongbeomi/TIL/tree/master/C%20Seminar/Presentation]
+*  [C언어 세미나 - 발표자료][https://github.com/hongbeomi/TIL/tree/master/C%20Seminar/Presentation]
 * [자료구조 세미나 - 발표자료][https://github.com/hongbeomi/TIL/tree/master/Data%20Structure%20Seminar/Presentation]
 * [자료구조 세미나 - 정렬 java code][https://github.com/hongbeomi/TIL/tree/master/Data%20Structure%20Seminar/data%20structure]
 * [데이터베이스 세미나 - postgreSQL][https://github.com/hongbeomi/TIL/tree/master/DataBase%20%20Seminar/Postgresql]
