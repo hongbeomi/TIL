@@ -1,7 +1,7 @@
 # TIL
 > Today I Learned
 
-![version](https://img.shields.io/badge/version-2019.01.01-blue.svg?style=flat-square&logo=github) 
+![version](https://img.shields.io/badge/version-2019.06.13-blue.svg?style=flat-square&logo=github) 
 
 ## What?
 
