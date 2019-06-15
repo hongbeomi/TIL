@@ -1,7 +1,7 @@
 # TIL
 > Today I Learned
 
-![version](https://img.shields.io/badge/version-2019.06.13-blue.svg?style=flat-square&logo=github) 
+![version](https://img.shields.io/badge/version-2019.06.16-blue.svg?style=flat-square&logo=github) 
 
 ## What?
 
@@ -19,6 +19,7 @@
 * [디자인패턴 세미나 - 발표자료](https://github.com/hongbeomi/TIL/tree/master/DesignPattern%20Seminar/Presentation)
 * [운영체제 세미나 - 발표자료](https://github.com/hongbeomi/TIL/tree/master/OS%20Seminar/Presentation)
 * [java 세미나 - 프로젝트](https://github.com/hongbeomi/TIL/tree/master/java%20Seminar/JavaProject)
+* [MVC 세미나 - homework]([https://github.com/hongbeomi/TIL/tree/master/MVC%20Seminar](https://github.com/hongbeomi/TIL/tree/master/MVC Seminar))
 
 ## Made By
 
