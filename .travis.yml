@@ -5,3 +5,6 @@ jdk:
 branches:
   only:
     - master
+
+install: true
+script: ./mvnw clean install
