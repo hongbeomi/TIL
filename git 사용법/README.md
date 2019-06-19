@@ -19,6 +19,8 @@
 
 * #### [Coveralls](#coveralls)
 
+
+
 #### github 시작하기
 
 ---
@@ -38,7 +40,7 @@
 
 깃허브에 접속 후 repository 탭에서 다음과 같이 new 버튼을 눌러서 새로운 레포지토리를 생성해준다.
 
-![new](./img/new repositories.png)
+<left><img src="./img/newrepositories.png" width="100%" height="100%"></left>
 
 
 
@@ -102,7 +104,7 @@ add 명령어를 입력한 후에는 반드시 commit 명령어를 실행해주�
 
 깃허브에서 새로운 레포지토리를 생성했을때 다음과 같은 화면을 볼 수 있다.
 
-![newproject](./img/new project.png)
+<left><img src="./img/newproject.png" width="100%" height="100%"></left>
 
 HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연결하고 싶다면 HTTPS 버튼을 누른후 나오는 값을 복사하여 사용한다.
 
@@ -253,7 +255,7 @@ script:
 
 위 절차를 마치고 Github에 커밋이나 푸쉬를 하게 되면 Travis 사이트에서 자동으로 변화를 인지하고 빌드를 실행하게 된다.
 
-![Travis CI](./img/Travis CI.png)
+<left><img src="./img/TravisCI.png" width="100%" height="100%"></left>
 
 빌드에 성공한 화면이다. Build passing 뱃지를 클릭하여 README.md 파일에 추가하여 사용할 수 있다.
 
@@ -304,7 +306,7 @@ vi .coveralls.yml
 
 - 간단하게 더하기를 실행하는 클래스와 메소드를 만들어 보았다.
 
-  <left><img src="./img/test class.png" width="50%" height="50%"></left>
+  <left><img src="./img/testclass.png" width="50%" height="50%"></left>
 
 * 그리고 이에 대한 테스트 코드를 작성했다.
 
@@ -386,7 +388,7 @@ vi .coveralls.yml
 
 밑에 사진은 성공한 화면이다.
 
-![coverage](./img/coverage.png)
+<left><img src="./img/coverage.png" width="100%" height="100%"></left>
 
 
 
