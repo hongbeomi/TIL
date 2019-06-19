@@ -15,7 +15,7 @@
 
 * #### [Github](#github-시작하기)
 
-* #### [Travis CI](#travis-ci-사용하기)
+* #### [Travis CI](#travis-ci-시작하기)
 
 * #### [Coveralls](#coveralls-)
 
@@ -303,7 +303,7 @@ script:
 
 
 
-### Coveralls 
+### Coveralls 시작하기
 
 ---
 
