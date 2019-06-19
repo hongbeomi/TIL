@@ -34,7 +34,7 @@
 
 
 
-> ####온라인 저장소 생성하기
+> #### 온라인 저장소 생성하기
 
 깃허브에 접속 후 repository 탭에서 다음과 같이 new 버튼을 눌러서 새로운 레포지토리를 생성해준다.
 
@@ -98,11 +98,11 @@ add 명령어를 입력한 후에는 반드시 commit 명령어를 실행해주�
 
 
 
-> ####로컬 저장소와 깃허브 레포지토리 저장소 연결하기
+> #### 로컬 저장소와 깃허브 레포지토리 저장소 연결하기
 
 깃허브에서 새로운 레포지토리를 생성했을때 다음과 같은 화면을 볼 수 있다.
 
-![new project](./img/new project.png)
+![newproject](./img/new project.png)
 
 HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연결하고 싶다면 HTTPS 버튼을 누른후 나오는 값을 복사하여 사용한다.
 
@@ -161,7 +161,7 @@ HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연�
 
 
 
-> ####깃허브 원격 저장소로 변경사항을 push하기
+> #### 깃허브 원격 저장소로 변경사항을 push하기
 
 ~~~ 커맨드
 git push -u origin master
@@ -169,7 +169,7 @@ git push -u origin master
 
 
 
-> ####이제 깃허브 저장소에 가서 잘 올라갔는지 확인해본다.
+> #### 이제 깃허브 저장소에 가서 잘 올라갔는지 확인해본다.
 
 
 
@@ -177,13 +177,13 @@ git push -u origin master
 
 ---
 
-> ####.gitignore 파일이란? 
+> #### .gitignore 파일이란? 
 
 * 깃허브에 파일을 올릴 때 깃허브 레포지토리에서 불필요한 파일을 볼 수 없게 해주는 파일이다.
 
 
 
-> ####.gitignore 파일 생성하기
+> #### .gitignore 파일 생성하기
 
 * [gitignore.io](https://www.gitignore.io/) 사이트에 접속 후 자신의 프로젝트에서 사용하는 개발 환경, 프로그래밍 언어, 운영체제를 추가하여 만들어 준다.
 
@@ -201,7 +201,7 @@ git push -u origin master
 
 ---
 
-> ####깃허브 README.md 파일에 build나 coverage, 언어, 버전에 대한 뱃지를 달 수 있다.
+> #### 깃허브 README.md 파일에 build나 coverage, 언어, 버전에 대한 뱃지를 달 수 있다.
 
 [shields.io](https://shields.io/) 에 접속하여 나만의 뱃지를 만들어 첨부할 수 있다.
 
@@ -219,7 +219,7 @@ Travis CI란 Github를 이용하여 프로젝트를 진행 할 때 사용하는 
 
 
 
-> ####Travis 설정하기
+> #### Travis 설정하기
 
 일단 .travis.yml 파일을 생성해준다. Travis CI를 이용하려면 Maven, Gradle, ANT 3개 중 하나의 빌드 도구를 선택해서 진행하여야 하는데 나는 Maven을 사용하여 진행하였다.
 
@@ -239,7 +239,7 @@ script:
 
 
 
-> ####프로젝트에 maven framework 연결하기 - 인텔리제이 기준
+> #### 프로젝트에 maven framework 연결하기 - 인텔리제이 기준
 
 자신의 자바 프로젝트를 인텔리제이로 실행한 후에 
 
@@ -249,7 +249,7 @@ script:
 
 
 
-> ####Travis CI 실행하기
+> #### Travis CI 실행하기
 
 위 절차를 마치고 Github에 커밋이나 푸쉬를 하게 되면 Travis 사이트에서 자동으로 변화를 인지하고 빌드를 실행하게 된다.
 
@@ -265,7 +265,7 @@ script:
 
 ---
 
-> ####coverage란?
+> #### coverage란?
 
 코드 커버리지는 소프트웨어의 테스트에 대해 말할 때 얼마나 테스트가 충분한가를 나타내는 것이다. 말 그대로 코드가 얼마나 커버되었는가를 나타낸다.
 
