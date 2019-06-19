@@ -313,7 +313,7 @@ script:
 
 커버리지를 100퍼센트 채우기 위해서는 코드에 대한 테스트가 코드의 각 내부 조건에 대해 모두 성공해야 한다.
 
-먼저 [coveralls.io]([https://coveralls.io](https://coveralls.io/)) 사이트에 깃허브 아이디로 간단하게 가입한다. 그 후 add repo 탭에서 커버리지를 측정할 프로젝트를 선택하여 추가해준다.
+먼저 [coveralls.io](https://coveralls.io/) 사이트에 깃허브 아이디로 간단하게 가입한다. 그 후 add repo 탭에서 커버리지를 측정할 프로젝트를 선택하여 추가해준다.
 
 
 
