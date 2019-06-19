@@ -15,11 +15,9 @@
 
 * #### [Github](#github-시작하기)
 
-* ####[Travis CI](#travis-ci)
+* #### [Travis CI](#travis-ci)
 
-* ####[Coveralls](#coveralls)
-
-
+* #### [Coveralls](#coveralls)
 
 #### github 시작하기
 
