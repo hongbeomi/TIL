@@ -15,13 +15,13 @@
 
 * #### [Github](#github-시작하기)
 
-* #### [Travis CI](#travis-ci)
+* #### [Travis CI](#travis-ci-사용하기)
 
-* #### [Coveralls](#coveralls)
+* #### [Coveralls](#coveralls-)
 
 
 
-#### github 시작하기
+### github 시작하기
 
 ---
 
@@ -241,7 +241,7 @@ git push -u origin master
 
 
 
-### Travis CI
+### Travis CI 
 
 ---
 
@@ -303,7 +303,7 @@ script:
 
 
 
-### Coveralls
+### Coveralls 
 
 ---
 
