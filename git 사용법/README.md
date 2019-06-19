@@ -17,7 +17,7 @@
 
 * #### [Travis CI](#travis-ci-시작하기)
 
-* #### [Coveralls](#coveralls-)
+* #### [Coveralls](#coveralls-시작하기)
 
 
 
@@ -241,7 +241,7 @@ git push -u origin master
 
 
 
-### Travis CI 
+### Travis CI 시작하기
 
 ---
 
