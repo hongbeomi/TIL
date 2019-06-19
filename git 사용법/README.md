@@ -27,12 +27,16 @@
 
 먼저 [Github.com](https://github.com/)에 가입한다. 그리고 자신의 운영체제에 따라서 윈도우, 맥, 리눅스 용 깃을 설치한다.
 
+
+
 > #### 초기 설정 - 설치한 깃에 다음 코드를 타이핑한다.
 
 ```커맨드
 유저 이름 설정 : git config --global user.name "Your Name"
 유저 이메일 설정 : git config --global user.email "Your Email"
 ```
+
+
 
 
 
@@ -48,6 +52,8 @@
 
 
 
+
+
 그리고 자신의 로컬 컴퓨터에서 깃허브에 있는 레포지토리와 연동할 저장소를 생성해준다.
 
 ``` 커맨드
@@ -57,11 +63,15 @@
 
 
 
+
+
 이제 현재 디렉토리를 깃 저장소라고 컴퓨터에게 알려주기 위해 초기화를 해준다. 이 명령어는 새로운 로컬 저장소를 생성할 때 처음에 반드시 해주어야 한다.
 
 ``` 커맨드
 깃 초기화 : git init
 ```
+
+
 
 
 
@@ -75,11 +85,15 @@ README 파일은 현재 레포지토리에 대한 설명이나 사용법을 적�
 
 
 
+
+
 Status 명령어를 통해서 현재 깃의 상태를 확인할 수도 있다.
 
 ~~~ 커맨드
 상태 확인 : git status
 ~~~
+
+
 
 
 
@@ -92,11 +106,15 @@ Status 명령어를 통해서 현재 깃의 상태를 확인할 수도 있다.
 
 
 
+
+
 add 명령어를 입력한 후에는 반드시 commit 명령어를 실행해주도록 한다.
 
 ~~~ command
 코멘트 추가 : git commit -m "수정사항 입력"
 ~~~
+
+
 
 
 
@@ -112,6 +130,8 @@ HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연�
 레포지토리 연결 : git remote add origin 값 붙혀넣기
 레포지토리 연결 확인 : git remote -v
 ~~~
+
+
 
 
 
@@ -163,6 +183,8 @@ HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연�
 
 
 
+
+
 > #### 깃허브 원격 저장소로 변경사항을 push하기
 
 ~~~ 커맨드
@@ -171,7 +193,11 @@ git push -u origin master
 
 
 
+
+
 > #### 이제 깃허브 저장소에 가서 잘 올라갔는지 확인해본다.
+
+
 
 
 
@@ -182,6 +208,8 @@ git push -u origin master
 > #### .gitignore 파일이란? 
 
 * 깃허브에 파일을 올릴 때 깃허브 레포지토리에서 불필요한 파일을 볼 수 없게 해주는 파일이다.
+
+
 
 
 
@@ -199,6 +227,8 @@ git push -u origin master
 
 
 
+
+
 ### Github — 뱃지 달기
 
 ---
@@ -206,6 +236,8 @@ git push -u origin master
 > #### 깃허브 README.md 파일에 build나 coverage, 언어, 버전에 대한 뱃지를 달 수 있다.
 
 [shields.io](https://shields.io/) 에 접속하여 나만의 뱃지를 만들어 첨부할 수 있다.
+
+
 
 
 
@@ -218,6 +250,8 @@ git push -u origin master
 Travis CI란 Github를 이용하여 프로젝트를 진행 할 때 사용하는 오픈소스 프로젝트이다. 이것을 사용하여 Git에 커밋이나 푸쉬를 할 때마다 자동으로 프로젝트에 대한 빌드나 테스트를 진행할 수 있다.
 
 가입한 후에 Settings 에 들어가서 연동할 레포지토리를 선택해준다.
+
+
 
 
 
@@ -241,6 +275,8 @@ script:
 
 
 
+
+
 > #### 프로젝트에 maven framework 연결하기 - 인텔리제이 기준
 
 자신의 자바 프로젝트를 인텔리제이로 실행한 후에 
@@ -248,6 +284,8 @@ script:
 자신의 프로젝트 파일 우클릭 —> add framework support.. —> maven 추가
 
 그러면 프로젝트에 pom.xml 파일이 생성된다. 그리고 groupId와 artifactId를 생성해주어야 하는데 패키지 이름과 프로젝트 이름을 각각 입력해준다.
+
+
 
 
 
@@ -260,6 +298,8 @@ script:
 빌드에 성공한 화면이다. Build passing 뱃지를 클릭하여 README.md 파일에 추가하여 사용할 수 있다.
 
 그리고 빌드하는 모습을 실시간으로 확인 할 수 있다.
+
+
 
 
 
@@ -277,6 +317,8 @@ script:
 
 
 
+
+
 > .coveralls.yml 파일 생성하기
 
 coveralls 파일을 생성한 후에 coveralls.io 사이트에서 자신의 레포지토리를 클릭하면 
@@ -290,11 +332,15 @@ repo_token: *******************
 
 
 
+
+
 그리고 .coveralls.yml 파일을 만들고 붙혀넣기 한다.
 
 ~~~command
 vi .coveralls.yml
 ~~~
+
+
 
 
 
@@ -313,6 +359,8 @@ vi .coveralls.yml
   <left><img src="./img/test.png" width="50%" height="50%"></left>
 
 위 테스트 코드에서 우클릭 후 Run '클래스 or 메소드 이름' with Coverage 를 클릭하여 coverage를 측정할 수 있다.
+
+
 
 
 
@@ -382,6 +430,8 @@ vi .coveralls.yml
 
 
 
+
+
 > Travis CI 빌드 및 Coverage 측정하기
 
 위 와 같은 파일들을 전부 작성해주고 push를 해주면 알아서 트래비스에서 빌드 후 coveralls 사이트로 coverage 결과를 전송해준다.
@@ -389,6 +439,8 @@ vi .coveralls.yml
 밑에 사진은 성공한 화면이다.
 
 <left><img src="./img/coverage.png" width="100%" height="100%"></left>
+
+
 
 
 
