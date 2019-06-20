@@ -42,19 +42,19 @@
 
 > #### 온라인 저장소 생성하기
 
-깃허브에 접속 후 repository 탭에서 다음과 같이 new 버튼을 눌러서 새로운 레포지토리를 생성해준다.
+깃허브에 접속 후 repository 탭에서 다음과 같이 new 버튼을 눌러서 새로운 리포지토리를 생성해준다.
 
 <left><img src="./img/newrepositories.png" width="100%" height="100%"></left>
 
 
 
-레포지토리 이름과 간단한 설명을 name과 Description란에 써준 후 Create repository를 클릭한다. Public과 Private를 이용하여 비공개 설정을 할 수 있고 README 파일과 .gitignore, license에 대한 파일을 자동으로 만들 수도 있다. 
+리포지토리 이름과 간단한 설명을 name과 Description란에 써준 후 Create repository를 클릭한다. Public과 Private를 이용하여 비공개 설정을 할 수 있고 README 파일과 .gitignore, license에 대한 파일을 자동으로 만들 수도 있다. 
 
 
 
 
 
-그리고 자신의 로컬 컴퓨터에서 깃허브에 있는 레포지토리와 연동할 저장소를 생성해준다.
+그리고 자신의 로컬 컴퓨터에서 깃허브에 있는 리포지토리와 연동할 저장소를 생성해준다.
 
 ``` 커맨드
 로컬 저장소 생성 : mkdir MyProject
@@ -75,13 +75,13 @@
 
 
 
-간단하게 README 파일을 만들어서 레포지토리에 올려본다.
+간단하게 README 파일을 만들어서 리포지토리에 올려본다.
 
 ~~~ 커맨드
 vi README.md
 ~~~
 
-README 파일은 현재 레포지토리에 대한 설명이나 사용법을 적어주는 파일이다. 간단하게 작성한다.
+README 파일은 현재 리포지토리에 대한 설명이나 사용법을 적어주는 파일이다. 간단하게 작성한다.
 
 
 
@@ -118,17 +118,17 @@ add 명령어를 입력한 후에는 반드시 commit 명령어를 실행해주�
 
 
 
-> #### 로컬 저장소와 깃허브 레포지토리 저장소 연결하기
+> #### 로컬 저장소와 깃허브 리포지토리 저장소 연결하기
 
-깃허브에서 새로운 레포지토리를 생성했을때 다음과 같은 화면을 볼 수 있다.
+깃허브에서 새로운 리포지토리를 생성했을때 다음과 같은 화면을 볼 수 있다.
 
 <left><img src="./img/newproject.png" width="100%" height="100%"></left>
 
 HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연결하고 싶다면 HTTPS 버튼을 누른후 나오는 값을 복사하여 사용한다.
 
 ~~~커맨드
-레포지토리 연결 : git remote add origin 값 붙혀넣기
-레포지토리 연결 확인 : git remote -v
+리포지토리 연결 : git remote add origin 값 붙혀넣기
+리포지토리 연결 확인 : git remote -v
 ~~~
 
 
@@ -173,7 +173,7 @@ HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연�
 
      
 
-  4. >  SSH 키를 이용하여 레포지토리 연결하기
+  4. >  SSH 키를 이용하여 리포지토리 연결하기
 
      위 그림에 있는 SSH 버튼을 눌러서 나온 값을 복사 한 후에 
 
@@ -207,7 +207,7 @@ git push -u origin master
 
 > #### .gitignore 파일이란? 
 
-* 깃허브에 파일을 올릴 때 깃허브 레포지토리에서 불필요한 파일을 볼 수 없게 해주는 파일이다.
+* 깃허브에 파일을 올릴 때 깃허브 리포지토리에서 불필요한 파일을 볼 수 없게 해주는 파일이다.
 
 
 
@@ -249,7 +249,7 @@ git push -u origin master
 
 Travis CI란 Github를 이용하여 프로젝트를 진행 할 때 사용하는 오픈소스 프로젝트이다. 이것을 사용하여 Git에 커밋이나 푸쉬를 할 때마다 자동으로 프로젝트에 대한 빌드나 테스트를 진행할 수 있다.
 
-가입한 후에 Settings 에 들어가서 연동할 레포지토리를 선택해준다.
+가입한 후에 Settings 에 들어가서 연동할 리포지토리를 선택해준다.
 
 
 
@@ -321,14 +321,14 @@ script:
 
 > .coveralls.yml 파일 생성하기
 
-coveralls 파일을 생성한 후에 coveralls.io 사이트에서 자신의 레포지토리를 클릭하면 
+coveralls 파일을 생성한 후에 coveralls.io 사이트에서 자신의 리포지토리를 클릭하면 
 
 ```
 service_name: travis-pro
 repo_token: *******************
 ```
 
-다음과 같은 서비스 이름과 레포지토리 토큰을 볼 수 있는데 이를 복사한다.
+다음과 같은 서비스 이름과 리포지토리 토큰을 볼 수 있는데 이를 복사한다.
 
 
 
@@ -389,7 +389,7 @@ vi .coveralls.yml
                 <artifactId>coveralls-maven-plugin</artifactId>
                 <version>4.3.0</version>
                 <configuration>
-                    <repoToken>자신의 레포지토리 토큰 입력</repoToken>
+                    <repoToken>자신의 리포지토리 토큰 입력</repoToken>
                     <sourceEncoding>utf-8</sourceEncoding>
                 </configuration>
             </plugin>
@@ -426,7 +426,7 @@ vi .coveralls.yml
     </properties>
 ~~~
 
-위에 레포 토큰 태그 안에 .coveralls.yml 파일 안의 토큰을 추가해준다.
+위에 리포 토큰 태그 안에 .coveralls.yml 파일 안의 토큰을 추가해준다.
 
 
 

@@ -42,13 +42,13 @@
 
 > #### 온라인 저장소 생성하기
 
-깃허브에 접속 후 repository 탭에서 다음과 같이 new 버튼을 눌러서 새로운 레포지토리를 생성해준다.
+깃허브에 접속 후 repository 탭에서 다음과 같이 new 버튼을 눌러서 새로운 리포지토리를 생성해준다.
 
 <left><img src="./img/newrepositories.png" width="100%" height="100%"></left>
 
 
 
-레포지토리 이름과 간단한 설명을 name과 Description란에 써준 후 Create repository를 클릭한다. Public과 Private를 이용하여 비공개 설정을 할 수 있고 README 파일과 .gitignore, license에 대한 파일을 자동으로 만들 수도 있다. 
+리포지토리 이름과 간단한 설명을 name과 Description란에 써준 후 Create repository를 클릭한다. Public과 Private를 이용하여 비공개 설정을 할 수 있고 README 파일과 .gitignore, license에 대한 파일을 자동으로 만들 수도 있다. 
 
 
 
@@ -207,7 +207,7 @@ git push -u origin master
 
 > #### .gitignore 파일이란? 
 
-* 깃허브에 파일을 올릴 때 깃허브 레포지토리에서 불필요한 파일을 볼 수 없게 해주는 파일이다.
+* 깃허브에 파일을 올릴 때 깃허브 리포지토리에서 불필요한 파일을 볼 수 없게 해주는 파일이다.
 
 
 
@@ -249,7 +249,7 @@ git push -u origin master
 
 Travis CI란 Github를 이용하여 프로젝트를 진행 할 때 사용하는 오픈소스 프로젝트이다. 이것을 사용하여 Git에 커밋이나 푸쉬를 할 때마다 자동으로 프로젝트에 대한 빌드나 테스트를 진행할 수 있다.
 
-가입한 후에 Settings 에 들어가서 연동할 레포지토리를 선택해준다.
+가입한 후에 Settings 에 들어가서 연동할 리포지토리를 선택해준다.
 
 
 
@@ -321,14 +321,14 @@ script:
 
 > .coveralls.yml 파일 생성하기
 
-coveralls 파일을 생성한 후에 coveralls.io 사이트에서 자신의 레포지토리를 클릭하면 
+coveralls 파일을 생성한 후에 coveralls.io 사이트에서 자신의 리포지토리를 클릭하면 
 
 ```
 service_name: travis-pro
 repo_token: *******************
 ```
 
-다음과 같은 서비스 이름과 레포지토리 토큰을 볼 수 있는데 이를 복사한다.
+다음과 같은 서비스 이름과 리포지토리 토큰을 볼 수 있는데 이를 복사한다.
 
 
 
@@ -389,7 +389,7 @@ vi .coveralls.yml
                 <artifactId>coveralls-maven-plugin</artifactId>
                 <version>4.3.0</version>
                 <configuration>
-                    <repoToken>자신의 레포지토리 토큰 입력</repoToken>
+                    <repoToken>자신의 리포지토리 토큰 입력</repoToken>
                     <sourceEncoding>utf-8</sourceEncoding>
                 </configuration>
             </plugin>
@@ -426,7 +426,7 @@ vi .coveralls.yml
     </properties>
 ~~~
 
-위에 레포 토큰 태그 안에 .coveralls.yml 파일 안의 토큰을 추가해준다.
+위에 리포 토큰 태그 안에 .coveralls.yml 파일 안의 토큰을 추가해준다.
 
 
 
