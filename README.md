@@ -31,7 +31,7 @@
 
 * ### [MVC 세미나 - homework](https://github.com/hongbeomi/TIL/tree/master/MVC%20Seminar)
 
-* ### [Git 사용법]([https://github.com/hongbeomi/TIL/tree/master/git%20%EC%82%AC%EC%9A%A9%EB%B2%95](https://github.com/hongbeomi/TIL/tree/master/git 사용법))
+* ### [Git 사용법](https://github.com/hongbeomi/TIL/tree/master/git 사용법)
 
 ## Made By
 
