@@ -1,7 +1,7 @@
 # TIL
 > Today I Learned
 
-![version](https://img.shields.io/badge/version-2019.06.16-blue.svg?style=flat-square&logo=github) 
+![GitHub top language](https://img.shields.io/github/languages/top/hongbeomi/TIL.svg?color=yellow&label=markdown&logo=markdown)![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hongbeomi/TIL.svg?color=deepgreen)![GitHub last commit](https://img.shields.io/github/last-commit/hongbeomi/TIL.svg?color=red) 
 
 ## What?
 
