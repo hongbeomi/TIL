@@ -9,29 +9,42 @@
 
 ## Contents
 
-* ### [C언어 세미나 - 발표자료](https://github.com/hongbeomi/TIL/tree/master/C%20Seminar/Presentation)
+### C 언어
 
-* ### [자료구조 세미나 - 발표자료](https://github.com/hongbeomi/TIL/tree/master/Data%20Structure%20Seminar/Presentation)
+* [Presentation](https://github.com/hongbeomi/TIL/tree/master/C%20Seminar/Presentation)
 
-* ### [자료구조 세미나 - 정렬 java code](https://github.com/hongbeomi/TIL/tree/master/Data%20Structure%20Seminar/data%20structure)
+### 자료구조
 
-* ### [데이터베이스 세미나 - postgreSQL](https://github.com/hongbeomi/TIL/tree/master/DataBase%20%20Seminar/Postgresql)
+* [Presentation](https://github.com/hongbeomi/TIL/tree/master/Data%20Structure%20Seminar/Presentation)
+* [정렬-java code](https://github.com/hongbeomi/TIL/tree/master/Data%20Structure%20Seminar/data%20structure)
 
-* ### [데이터베이스 세미나 - 옳지 않은 코드](https://github.com/hongbeomi/TIL/tree/master/DataBase%20%20Seminar/SQL)
+### 데이터베이스
 
-* ### [데이터베이스 세미나 - mybatis](https://github.com/hongbeomi/TIL/tree/master/DataBase%20%20Seminar/hello-mybatis)
+* [postgreSQL](https://github.com/hongbeomi/TIL/tree/master/DataBase%20%20Seminar/Postgresql)
+* [옳지 않은 코드](https://github.com/hongbeomi/TIL/tree/master/DataBase%20%20Seminar/SQL)
+* [mybatis 적용하기](https://github.com/hongbeomi/TIL/tree/master/DataBase%20%20Seminar/hello-mybatis)
 
-* ### [디자인패턴 세미나 - java code](https://github.com/hongbeomi/TIL/tree/master/DesignPattern%20Seminar/DesignPattern)
+### 디자인 패턴
 
-* ### [디자인패턴 세미나 - 발표자료](https://github.com/hongbeomi/TIL/tree/master/DesignPattern%20Seminar/Presentation)
+* [code](https://github.com/hongbeomi/TIL/tree/master/DesignPattern%20Seminar/DesignPattern)
+* [발표자료](https://github.com/hongbeomi/TIL/tree/master/DesignPattern%20Seminar/Presentation)
 
-* ### [운영체제 세미나 - 발표자료](https://github.com/hongbeomi/TIL/tree/master/OS%20Seminar/Presentation)
+### 운영체제
 
-* ### [java 세미나 - 프로젝트](https://github.com/hongbeomi/TIL/tree/master/java%20Seminar/JavaProject)
+* [Presentation](https://github.com/hongbeomi/TIL/tree/master/OS%20Seminar/Presentation)
 
-* ### [MVC 세미나 - homework](https://github.com/hongbeomi/TIL/tree/master/MVC%20Seminar)
+### java
 
-* ### [Git 사용법](https://github.com/hongbeomi/TIL/tree/master/git%20%EC%82%AC%EC%9A%A9%EB%B2%95)
+* [혼자 공부하는 자바](https://github.com/hongbeomi/TIL/tree/master/java%20Seminar/%ED%98%BC%EC%9E%90%20%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94%20%EC%9E%90%EB%B0%94)
+* [project](https://github.com/hongbeomi/TIL/tree/master/java%20Seminar/JavaProject)
+
+### MVC
+
+* [homework](https://github.com/hongbeomi/TIL/tree/master/MVC%20Seminar)
+
+### Git
+
+* [사용법](https://github.com/hongbeomi/TIL/tree/master/git%20%EC%82%AC%EC%9A%A9%EB%B2%95)
 
   
 
