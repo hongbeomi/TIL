@@ -3,7 +3,7 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/hongbeomi/TIL.svg?color=yellow&label=markdown&logo=markdown) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hongbeomi/TIL.svg?color=green) ![GitHub last commit](https://img.shields.io/github/last-commit/hongbeomi/TIL.svg?color=red) 
 
-![background](/Users/hongbeom/git 업로드용/TIL/background-ho.png)
+![background](./background-ho.png)
 
 ## What?
 
