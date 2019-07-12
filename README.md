@@ -42,7 +42,7 @@
 
 ### **Anroid**
 
-- [안드로이드 생존코딩 - 코틀린 편]()
+- [안드로이드 생존코딩 - 코틀린 편](https://github.com/hongbeomi/TIL/tree/master/Android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EC%83%9D%EC%A1%B4%EC%BD%94%EB%94%A9%20-%20%EC%BD%94%ED%8B%80%EB%A6%B0%20%ED%8E%B8)
 
 ### MVC
 
