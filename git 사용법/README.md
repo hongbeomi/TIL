@@ -3,13 +3,13 @@
 
 ![version](https://img.shields.io/badge/version-2019.06.19-blue.svg?style=flat-square&logo=github) 
 
-
+<br>
 
 ## What?
 
 깃은 프로젝트의 어떤 부분도 겹쳐쓰지 않게 프로젝트의 변경을 관리하는 버전관리 소프트웨어이다.
 
-
+<br>
 
 ## Contents
 
@@ -19,7 +19,7 @@
 
 * #### [Coveralls](#coveralls-시작하기)
 
-
+<br>
 
 ### github 시작하기
 
@@ -27,7 +27,7 @@
 
 먼저 [Github.com](https://github.com/)에 가입한다. 그리고 자신의 운영체제에 따라서 윈도우, 맥, 리눅스 용 깃을 설치한다.
 
-
+<br>
 
 > #### 초기 설정 - 설치한 깃에 다음 코드를 타이핑한다.
 
@@ -36,9 +36,9 @@
 유저 이메일 설정 : git config --global user.email "Your Email"
 ```
 
+<br>
 
-
-
+<br>
 
 > #### 온라인 저장소 생성하기
 
@@ -47,12 +47,11 @@
 <left><img src="./img/newrepositories.png" width="100%" height="100%"></left>
 
 
-
 리포지토리 이름과 간단한 설명을 name과 Description란에 써준 후 Create repository를 클릭한다. Public과 Private를 이용하여 비공개 설정을 할 수 있고 README 파일과 .gitignore, license에 대한 파일을 자동으로 만들 수도 있다. 
 
+<br>
 
-
-
+<br>
 
 그리고 자신의 로컬 컴퓨터에서 깃허브에 있는 리포지토리와 연동할 저장소를 생성해준다.
 
@@ -61,9 +60,9 @@
 로컬 저장소로 이동 : cd MyProject
 ```
 
+<br>
 
-
-
+<br>
 
 이제 현재 디렉토리를 깃 저장소라고 컴퓨터에게 알려주기 위해 초기화를 해준다. 이 명령어는 새로운 로컬 저장소를 생성할 때 처음에 반드시 해주어야 한다.
 
@@ -71,9 +70,9 @@
 깃 초기화 : git init
 ```
 
+<br>
 
-
-
+<br>
 
 간단하게 README 파일을 만들어서 리포지토리에 올려본다.
 
@@ -83,9 +82,9 @@ vi README.md
 
 README 파일은 현재 리포지토리에 대한 설명이나 사용법을 적어주는 파일이다. 간단하게 작성한다.
 
+<br>
 
-
-
+<br>
 
 Status 명령어를 통해서 현재 깃의 상태를 확인할 수도 있다.
 
@@ -93,9 +92,9 @@ Status 명령어를 통해서 현재 깃의 상태를 확인할 수도 있다.
 상태 확인 : git status
 ~~~
 
+<br>
 
-
-
+<br>
 
 이제 만든 README 파일을 올려본다.
 
@@ -104,9 +103,9 @@ Status 명령어를 통해서 현재 깃의 상태를 확인할 수도 있다.
 특정 파일을 적어서 추가할 수도 있다. : git add README.md
 ~~~
 
+<br>
 
-
-
+<br>
 
 add 명령어를 입력한 후에는 반드시 commit 명령어를 실행해주도록 한다.
 
@@ -114,16 +113,15 @@ add 명령어를 입력한 후에는 반드시 commit 명령어를 실행해주�
 코멘트 추가 : git commit -m "수정사항 입력"
 ~~~
 
+<br>
 
-
-
+<br>
 
 > #### 로컬 저장소와 깃허브 리포지토리 저장소 연결하기
 
 깃허브에서 새로운 리포지토리를 생성했을때 다음과 같은 화면을 볼 수 있다.
 
 <left><img src="./img/newproject.png" width="100%" height="100%"></left>
-
 HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연결하고 싶다면 HTTPS 버튼을 누른후 나오는 값을 복사하여 사용한다.
 
 ~~~커맨드
@@ -131,9 +129,9 @@ HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연�
 리포지토리 연결 확인 : git remote -v
 ~~~
 
+<br>
 
-
-
+<br>
 
 * SSH 키 사용하여 연결하기
 
@@ -181,9 +179,9 @@ HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연�
      레포지토리 연결 : git remote add origin 값 복사하기
       ~~~
 
+<br>
 
-
-
+<br>
 
 > #### 깃허브 원격 저장소로 변경사항을 push하기
 
@@ -191,15 +189,15 @@ HTTPS와 SSH를 이용하여 연결할 수 있는데 HTTPS를 사용하여 연�
 git push -u origin master
 ~~~
 
+<br>
 
-
-
+<br>
 
 > #### 이제 깃허브 저장소에 가서 잘 올라갔는지 확인해본다.
 
+<br>
 
-
-
+<br>
 
 ### Github — .gitignore 파일
 
@@ -209,9 +207,9 @@ git push -u origin master
 
 * 깃허브에 파일을 올릴 때 깃허브 리포지토리에서 불필요한 파일을 볼 수 없게 해주는 파일이다.
 
+<br>
 
-
-
+<br>
 
 > #### .gitignore 파일 생성하기
 
@@ -225,9 +223,9 @@ git push -u origin master
   vi .gitignore
   ~~~
 
+<br>
 
-
-
+<br>
 
 ### Github — 뱃지 달기
 
@@ -237,9 +235,9 @@ git push -u origin master
 
 [shields.io](https://shields.io/) 에 접속하여 나만의 뱃지를 만들어 첨부할 수 있다.
 
+<br>
 
-
-
+<br>
 
 ### Travis CI 시작하기
 
@@ -251,9 +249,9 @@ Travis CI란 Github를 이용하여 프로젝트를 진행 할 때 사용하는 
 
 가입한 후에 Settings 에 들어가서 연동할 리포지토리를 선택해준다.
 
+<br>
 
-
-
+<br>
 
 > #### Travis 설정하기
 
@@ -273,9 +271,9 @@ script:
 - mvn test
 ~~~
 
+<br>
 
-
-
+<br>
 
 > #### 프로젝트에 maven framework 연결하기 - 인텔리제이 기준
 
@@ -285,23 +283,22 @@ script:
 
 그러면 프로젝트에 pom.xml 파일이 생성된다. 그리고 groupId와 artifactId를 생성해주어야 하는데 패키지 이름과 프로젝트 이름을 각각 입력해준다.
 
+<br>
 
-
-
+<br>
 
 > #### Travis CI 실행하기
 
 위 절차를 마치고 Github에 커밋이나 푸쉬를 하게 되면 Travis 사이트에서 자동으로 변화를 인지하고 빌드를 실행하게 된다.
 
 <left><img src="./img/TravisCI.png" width="100%" height="100%"></left>
-
 빌드에 성공한 화면이다. Build passing 뱃지를 클릭하여 README.md 파일에 추가하여 사용할 수 있다.
 
 그리고 빌드하는 모습을 실시간으로 확인 할 수 있다.
 
+<br>
 
-
-
+<br>
 
 ### Coveralls 시작하기
 
@@ -330,9 +327,9 @@ repo_token: *******************
 
 다음과 같은 서비스 이름과 리포지토리 토큰을 볼 수 있는데 이를 복사한다.
 
+<br>
 
-
-
+<br>
 
 그리고 .coveralls.yml 파일을 만들고 붙혀넣기 한다.
 
@@ -340,9 +337,9 @@ repo_token: *******************
 vi .coveralls.yml
 ~~~
 
+<br>
 
-
-
+<br>
 
 > IntelliJ 테스트 코드 만들기
 
@@ -360,9 +357,9 @@ vi .coveralls.yml
 
 위 테스트 코드에서 우클릭 후 Run '클래스 or 메소드 이름' with Coverage 를 클릭하여 coverage를 측정할 수 있다.
 
+<br>
 
-
-
+<br>
 
 > IntelliJ에 maven 플러그인 연동하기
 
@@ -428,9 +425,9 @@ vi .coveralls.yml
 
 위에 리포 토큰 태그 안에 .coveralls.yml 파일 안의 토큰을 추가해준다.
 
+<br>
 
-
-
+<br>
 
 > Travis CI 빌드 및 Coverage 측정하기
 
@@ -440,15 +437,14 @@ vi .coveralls.yml
 
 <left><img src="./img/coverage.png" width="100%" height="100%"></left>
 
-
-
+<br>
 
 
 > #### .coveralls.yml 파일과 pom.xml 파일안의 토큰을 숨기기
 
 업데이트 예정
 
-
+<br>
 
 ## Made By
 
