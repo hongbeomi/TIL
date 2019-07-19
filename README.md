@@ -5,7 +5,7 @@
 
 ![image](https://user-images.githubusercontent.com/40753104/61136316-608ccf00-a4fe-11e9-8929-7ac715c80058.png)
 
-## What?
+## What? 
 
 학습 내용 저장소입니다.
 
