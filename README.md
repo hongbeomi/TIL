@@ -1,6 +1,6 @@
 # TIL
 > Today I Learned
-  
+
 ![GitHub top language](https://img.shields.io/github/languages/top/hongbeomi/TIL.svg?color=yellow&label=markdown&logo=markdown) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hongbeomi/TIL.svg?color=green) ![GitHub last commit](https://img.shields.io/github/last-commit/hongbeomi/TIL.svg?color=red) 
 
 ![image](https://user-images.githubusercontent.com/40753104/61136316-608ccf00-a4fe-11e9-8929-7ac715c80058.png)
@@ -8,7 +8,9 @@
 ## What? 
 
 학습 내용 저장소입니다.
- 
+
+<br>
+
 ## Contents
 
 ### C 언어
@@ -51,7 +53,11 @@
 
 * [사용법](https://github.com/hongbeomi/TIL/tree/master/git%20%EC%82%AC%EC%9A%A9%EB%B2%95)
 
-  
+### **Tips**
+
+- [알고있으면 좋은 팁들](https://github.com/hongbeomi/TIL/tree/master/Tips)
+
+<br>
 
 ## Made By
 
