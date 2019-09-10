@@ -9,7 +9,7 @@
 
 - 중요하고 자주 사용되는 단축키들 입니다
 
-|                                      | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                                      | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------- |
 | 스마트 코드 완성                     | Ctrl + Shift + Space                                         | ⌃⇧Space                               |
 | 어디서나 검색                        | Double Shift                                                 | Double⇧                               |
@@ -29,7 +29,7 @@
 
 ### 🎈 일반
 
-|                                 | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                                 | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ------------------------------- | ------------------------------------------------------------ | ------------------------------------- |
 | **해당 도구 창 열기**           | **Alt + #[0-9]**                                             | **⌘0 … ⌘9**                           |
 | 모두 저장                       | Ctrl + S                                                     | ⌘ S                                   |
@@ -45,7 +45,7 @@
 
 ### 🐜 디버깅
 
-|                              | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                              | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ---------------------------- | ------------------------------------------------------------ | ------------------------------------- |
 | **넘어가기 / 들어가기**      | **F8 / F7**                                                  | **F8 / F7**                           |
 | 스마트하게 들어가기 / 나가기 | Shift + F7 / Shift + F8                                      | ⇧F7 / ⇧F8                             |
@@ -59,7 +59,7 @@
 
 ### 🔍 검색 / 교체
 
-|                    | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                    | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------- |
 | **어디서나 검색**  | **Double Shift**                                             | **Double ⇧**                          |
 | **찾기**           | **Ctrl + F**                                                 | **⌘F**                                |
@@ -75,7 +75,7 @@
 
 ### ✂️ 편집
 
-|                                            | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                                            | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ------------------------------------------ | ------------------------------------------------------------ | ------------------------------------- |
 | **기본 코드 완성**                         | **Ctrl + Space**                                             | **⌃Space**                            |
 | **스마트 코드 완성**                       | **Ctrl + shift + Space**                                     | **⌃⇧Space**                           |
@@ -121,7 +121,7 @@
 
 ### 🛠 리팩토링
 
-|                 | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                 | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | --------------- | ------------------------------------------------------------ | ------------------------------------- |
 | **복사**        | **F5**                                                       | **F5**                                |
 | **이동**        | **F6**                                                       | **F6**                                |
@@ -140,7 +140,7 @@
 
 #### 🕵️‍♂️ 탐색
 
-|                                              | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                                              | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------- |
 | **클래스로 이동**                            | **Ctrl + N**                                                 | **⌘ O**                               |
 | **파일로 이동**                              | **Ctrl  + Shift + N**                                        | **⌘⇧ O**                              |
@@ -177,7 +177,7 @@
 
 ### ✅ 컴파일 및 실행
 
-|                                                      | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                                                      | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------- |
 | **프로젝트 만들기(수정되고 종속된 상태로 컴파일링)** | **Ctrl + F9**                                                | **⌘ F9**                              |
 | 선택된 파일, 패키지 또는 모듈 컴파일                 | Ctrl + Shift + F9                                            | ⌘⇧ F9                                 |
@@ -189,7 +189,7 @@
 
 ### 📊 사용량 검색
 
-|                                      | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                                      | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------- |
 | **사용량 찾기 / 파일의 사용량 찾기** | **Alt + F7 / Ctrl + F7**                                     | **⌥ F7 / ⌘ F7**                       |
 | **파일의 사용량 강조 표시**          | **Ctrl + Shift + F7**                                        | **⌘⇧ F7**                             |
@@ -199,7 +199,7 @@
 
 ### 📝 VCS / 로컬 기록
 
-|                                 | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                                 | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ------------------------------- | ------------------------------------------------------------ | ------------------------------------- |
 | **프로젝트를 VCS로 커밋**       | **Ctrl + K**                                                 | **⌘ K**                               |
 | **프로젝트를 VCS에서 업데이트** | **Ctrl + T**                                                 | **⌘ T**                               |
@@ -210,7 +210,7 @@
 
 ### 💎 실시간 템플릿
 
-|                          | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:30px"></span> |
+|                          | <img src="https://user-images.githubusercontent.com/40753104/64516448-84676800-d329-11e9-8aa5-e7160613d68c.png" width="30" height="30"/> | <span style="font-size:25pt"></span> |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------- |
 | 실시간 템플릿으로 감싸기 | Ctrl + Alt + J                                               | ⌘⌥ J                                  |
 | 실시간 템플릿 삽입       | Ctrl + J                                                     | ⌘ J                                   |
